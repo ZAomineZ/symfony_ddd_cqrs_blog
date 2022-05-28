@@ -1,5 +1,15 @@
-controllers:
-    resource: ../src/Controller/
+ControllerArticle:
+    resource: ../src/Blog/Post/Article/Application/Controller
+    type: annotation
+
+
+ControllerCategory:
+    resource: ../src/Blog/Post/Category/Application/Controller
+    type: annotation
+
+
+ControllerUser:
+    resource: ../src/Blog/User/Application/Controller
     type: annotation
 
 kernel:
